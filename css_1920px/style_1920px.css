@@ -1,0 +1,791 @@
+@media(max-width: 1920px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #9aa3ba;
+        line-height: 26px;
+        max-width: 1920px;
+    }
+
+    /* Загаловки */
+
+    .title-h1 {
+        font-size: 58px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.1;
+        text-transform: uppercase;
+    }
+    .title-h1 span {
+        font-size: 108px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+
+    .title-h1-equipment {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.4;
+        text-transform: uppercase;
+        padding-left: 50px;
+        padding-top: 15px;
+    }
+
+    .title-h1-equipment:hover {
+        color: #0081BF;
+    }
+
+    .title-h2 {
+        font-size: 42px;
+        font-weight: 600;
+        color: black;
+        line-height: 1.5;
+        text-transform: uppercase;
+    }
+
+    .title-h3 {
+        font-size: 42px;
+        font-weight: 700;
+        color: black;
+        line-height: 24.1px;
+    }
+
+    .title-h3 span {
+        font-size: 22px;
+        font-weight: 600;
+        color: #9FA4A7;
+    }
+
+    .title-h3-last {
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 3px 5px;
+
+    }
+
+    .title-h3-last span {
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .title-p {
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+        margin: 45px 0;
+        line-height: 1.4;
+        border-left: 2px solid #22A2DF;
+        padding-left: 20px;
+    }
+
+    .title-p-min {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+        line-height: 1.4;
+        margin-top: 40px;
+    }
+
+    .title-p2 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0;
+    }
+
+    .title-a {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.1;
+        text-transform: uppercase;
+        color: #0081BF;
+        text-decoration: underline #0081BF 3px;
+        margin: 40px 0;
+    }
+
+
+    .title-a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Конец заголовков*/
+
+    .wrap {
+        max-width: 92%;
+    }
+
+    a { 
+        text-decoration: none;
+    }
+
+    .page-header {
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+    }
+
+    .container-header {
+        display: flex;
+        border-right: 1px solid #9aa3ba;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        background-image: url(../img/лого.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 75px;
+        height: 75px;
+    }
+
+    .name {
+        padding: 0 20px;
+        max-width: 500px;
+        display: flex;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav > li {
+        padding: 0px 20px;
+    }
+
+    .nav-item {
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+
+
+    .nav-item:hover {
+        color: #22A2DF;
+    }
+
+    .dropdown-menu {
+        background-color: none;
+    }
+
+
+
+    .item1 {
+        color: #fff;
+        padding: 20px 10px;
+        background-color: #22A2DF;
+    } 
+
+    .item1:hover {
+        color: #fff;
+    }
+
+    .background {
+        background-color: #22A2DF;
+        width: 450px;
+        padding: 0 20px;
+    }
+
+    .background-two {
+        background-color: #22A2DF;
+        padding: 0 20px;
+    }
+
+    .nav-item1 {
+        color:#fff;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .nav-item1 a {
+        color:#fff;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .nav-item1:hover {
+        color: #161f9c6c;
+        text-decoration: none;
+    }
+    .nav-item2{
+        padding: 10px 0;
+    }
+
+    .item2 {
+        background-color: #fff;
+        color: black;
+        font-weight: 600;
+        margin: 0 auto;
+    }
+
+
+    .dropdown-toggle {
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+    }
+
+
+    .catalog img {
+        padding-right: 10px;
+    }
+
+    .phone {
+        background-image: url(../img/phone.png);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: 0 3px;
+    }
+
+    .email {
+        background-image: url(../img/email.png);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: 0px 12px;
+    }
+
+    .connection {
+        padding-left: 30px;
+    }
+
+    .call {
+        border-left: 1px solid #9aa3ba;
+        border-right: 1px solid #9aa3ba;
+        color: blue;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 29px 25px;
+
+    }
+
+    .call:hover {
+        background-color: blue;
+    }
+
+    .call a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .language {
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+        margin: 0 auto;
+    }
+
+    .new-car {
+        background-image: url(../img/слайд.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 81px 0px 90px 171px;
+        margin-top: -20px;
+        
+    }
+
+    .information {
+        max-width: 1145px;
+    }
+
+    .btn-primary {
+        background: -webkit-linear-gradient(90deg, rgb(34, 162, 223) 29%, rgb(1, 106, 156));
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 25px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        margin-top: -15px;
+    }
+
+    .btn-primary:hover {
+        background: -webkit-linear-gradient(90deg, rgb(34, 212, 223) 29%, rgb(34, 162, 223));
+        text-decoration: none;
+    }
+
+    .qualiti {
+        display: flex;
+        margin-top: 90px;
+    }
+
+    .box-one {
+        display: flex;
+        max-width: 370px;
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+        background-color: black;
+        opacity: 0.5;
+        filter: alpha(Opacity=60);
+        color: #fff;
+    }
+
+
+    .icon {
+        padding: 15px;
+    }
+
+    .equipment {
+        display: flex;
+        height: 655px;
+    }
+
+    .our-equipment {
+        flex-basis: 25%;
+    }
+
+    .equipment-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .equipment-one {
+        background-image: url(../img/фон.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .equipment-one:hover {
+        background-image: url(../img/фон4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .equipment-two {
+        background-image: url(../img/фон1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .equipment-three {
+        background-image: url(../img/фон2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .slayd-one, .slayd-two{
+        border: 2px solid #CCDFE8;
+        background-color: #fff;
+        margin-top: 70px;
+        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .slayd-one:hover, .slayd-two:hover {
+        border: 2px solid #0081BF;
+    }
+
+    .arrow {
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        transform: rotate(45deg);
+    }
+
+    .normal {
+        border-left: 3px solid #CCDFE8;
+        border-bottom: 3px solid #CCDFE8;
+    }
+
+    .reverse {
+        border-top: 3px solid #CCDFE8;
+        border-right: 3px solid #CCDFE8;
+    }
+
+    .equipment-txt {
+        padding-top: 290px;
+        padding-left: 30px;
+    }
+
+    .equipment-txt .slayd-two {
+        background-color: #0081BF;
+        border: none;
+        width: 60px;
+        height: 60px;
+    }
+
+    .triangle {
+        margin-left: 40%;
+        border: 10px solid transparent; 
+        border-left: 10px solid #fff;
+    }
+
+    .news {
+        background-image: url(../img/фон3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 80px;
+    }
+
+    .news-text {
+        max-width: 960px;
+        padding-left: 131px;
+        padding-bottom: 104px;
+    }
+
+    .image-list {
+        display: flex;
+        margin: 20px 0;
+
+    }
+
+    .box {
+        display: flex;
+        margin-left: -131px;
+    }
+
+    .image {
+        width: 85px;
+        height: 80px;
+    }
+
+    .image1 {
+        margin-right: 180px;
+    }
+
+    img {
+    transition: transform 0.25s;
+    }
+
+    .image1:hover img {
+    transform: scale(1.5);
+    }
+
+    .image2:hover img {
+        transform: scale(1.5);
+    }
+
+    .image3:hover img {
+        transform: scale(1.5);
+    }
+
+    .image4:hover img {
+        transform: scale(1.5);
+    }
+
+
+    .image2 {
+        margin-right: 240px;
+    }
+
+    .image3 {
+        margin-right: 240px;
+    }
+
+    .button-lst {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .button-lst .btn-primary {
+        margin-top: 0;
+    }
+
+    .slayd-three, .slayd-four{
+        border: 2px solid #22a3df9f;
+        background-color: #041D2B;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .normal-three {
+        background-color: #041D2B
+    }
+
+    .reverse-four {
+        background-color: #041D2B
+    }
+
+    .normal-three:hover {
+        border-left: 3px solid #22a3df9f;
+        border-bottom: 3px solid #22a3df9f;
+    }
+
+    .reverse-four:hover {
+        border-right: 3px solid #22a3df9f;
+        border-top: 3px solid #22a3df9f;
+    }
+
+    .company-life {
+        background-color: #fff;
+    }
+
+    .company-life-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 40px 20px 80px;
+    }
+
+    .company-life-header .btn-primaty {
+        margin-top: -70px;
+    }
+
+    .company-events {
+        display: flex;
+        height: 900px;
+    }
+
+    .events {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .events-one {
+        background-image: url(../img/фото4.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-basis: 55%;
+    }
+
+    .events-text {
+        padding: 80px;
+    }
+
+    .events-text .title-h1-equipment {
+        padding-left: 0;
+        font-size: 34px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .events-text .btn-primary {
+        max-width: 225px;
+    }
+
+    .date {
+        border: 2px solid #0081BF;
+        max-width: 210px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .date-one {
+        margin-bottom: 250px;
+    }
+
+
+    .date p {
+        margin: 0 0 0 0;
+    }
+    .events-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .events-two {
+        background-image: url(../img/фото5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .events-three {
+        background-image: url(../img/фото6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .ru {
+        display: none;
+    }
+
+    .text-one .title-h1-equipment:hover{
+        margin-top: -150px;
+    }
+    .text-one .title-h1-equipment:hover+div {
+        display: block;
+    }
+
+    .last {
+        display: flex;
+        height: 526px;
+    }
+
+
+    .company-information {
+        background-image: url(../img/MaskGroup.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-basis: 53%;
+        padding: 60px 0;
+        display: flex;
+    }
+
+    .our-company {
+        margin: 0 auto;
+    }
+
+    .name-company {
+        display: flex;
+        max-width: 525px;
+    }
+
+
+    .logo-two {
+        background-image: url(../img/лого2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100px;
+        height: 75px;
+    }
+
+    .last-menu {
+        margin: 40px 0;
+    }
+
+    .last-menu .nav-item {
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .last-menu .nav-item:hover {
+        color: #0081BF;
+    }
+
+    .last-menu .nav {
+        padding-left: 0;
+    }
+
+    .last-menu .connect {
+        justify-content: center;
+    }
+
+    .last-menu .phone {
+        background-image: url(../img/phone1.png);
+    }
+
+    .last-menu .email {
+        background-image: url(../img/email1.png);
+    }
+
+    .icons {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .social-icon {
+        width: 65px;
+        height: 65px;
+        padding: 5px;
+        margin-right: 10px;
+        background-color: #22b0f1;
+    }
+
+    .vk {
+        background-image: url(../img/vk.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: 13px 22px;
+    }
+
+    .vk:hover {
+        background-color: #fff;
+    }
+
+    .facebook {
+        background-image: url(../img/facebook.png);
+        background-repeat: no-repeat;
+        background-size: 27%;
+        background-position: 24px 14px;
+    }
+
+    .facebook:hover {
+        background-color: #fff;
+    }
+
+    .odnoklassiki {
+        background-image: url(../img/odniklassniki.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: 21px 10px;
+    }
+
+    .odnoklassiki:hover {
+        background-color: #fff;
+    }
+
+    .mail {
+        background-image: url(../img/maill.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: 14px 13px;
+    }
+
+    .mail:hover {
+        background-color: #fff;
+    }
+
+    .twitter {
+        background-image: url(../img/twitter.png);
+        background-repeat: no-repeat;
+        background-size: 69%;
+        background-position: 13px 17px;
+    }
+
+    .twitter:hover {
+        background-color: #fff;
+    }
+
+    .instagramm {
+        background-image: url(../img/instagram.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: 13px 14px;
+    }
+
+    .instagramm:hover {
+        background-color: #fff;
+    }
+
+    .our-company .title-p-min {
+        color: black;
+        font-size: 20px;
+    }
+
+    .name-company .title-p-min {
+        font-size: 24px;
+        color: #0081BF;
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+    .name-company .title-p-min:hover {
+        color: #fff;
+    }
+
+    .cards {
+        background-image: url(../img/a94f6259e4.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-basis: 50%;
+    }
+}
+
+
+
